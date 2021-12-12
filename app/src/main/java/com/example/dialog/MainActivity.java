@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         TextView myMessage=(TextView)myLayout.findViewById(R.id.textViewCameraInfo);
         myMessage.setText("My Custom Toast");
+
+
         
         Toast myToast=new Toast(getApplicationContext());
         myToast.setDuration(Toast.LENGTH_LONG);
